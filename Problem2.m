@@ -1,0 +1,11 @@
+w1=50;
+w2=0;
+R1=2;
+R2=6;
+mu=2*pi*(R1)^2*w1;
+u=@(r) mu/2*pi*r;
+fplot(u);
+grid on;
+title('concentratic cylinders');
+xlabel('u');
+ylabel('r');

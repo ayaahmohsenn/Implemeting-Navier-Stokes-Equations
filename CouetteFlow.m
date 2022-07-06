@@ -14,7 +14,7 @@ Iu = [0 40];    % Initial Conditions [U(0,0) U(H,0)]
 D = mu*dt/dy^2;  % Diffusion Factor
 j_max = floor(T/dt+1); % Number of time nodes
 i_max = floor(H/dy+1); % Number of space nodes
-%%
+
 for t = 1:j_max
     for i = 1:i_max
        if t==1
